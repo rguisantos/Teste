@@ -12,6 +12,7 @@ var pitch_degrees := 55.0
 var blocked_regions: Array[Control] = []
 var focus := Vector3(0, 0.5, 0)
 var fingers: Dictionary = {}
+var finger_over_ui: Dictionary = {}
 var mouse_drag := false
 var arm := Node3D.new()
 var camera := Camera3D.new()
@@ -56,6 +57,7 @@ func _over_interface(point: Vector2) -> bool:
 func clear_gestures() -> void:
 	fingers.clear()
 	touch_origins.clear()
+	finger_over_ui.clear()
 	pair_baseline.clear()
 	had_multiple = false
 	mouse_drag = false
@@ -71,10 +73,12 @@ func _input(event: InputEvent) -> void:
 	if event is InputEventScreenTouch and not event.pressed:
 		if fingers.has(event.index) and touch_origins.has(event.index):
 			var is_tap: bool = touch_origins[event.index].distance_to(event.position) < 16
-			if is_tap and not had_multiple and not _over_interface(event.position):
+			var over_ui := finger_over_ui.get(event.index, false)
+			if is_tap and not had_multiple and not over_ui:
 				map_tapped.emit(event.position)
 		fingers.erase(event.index)
 		touch_origins.erase(event.index)
+		finger_over_ui.erase(event.index)
 		pair_baseline.clear()
 		if fingers.is_empty():
 			had_multiple = false
@@ -88,23 +92,23 @@ func _unhandled_input(event: InputEvent) -> void:
 	if (event is InputEventMouseButton or event is InputEventMouseMotion) and event.device == InputEvent.DEVICE_ID_EMULATION:
 		return
 	if event is InputEventScreenTouch and event.pressed:
-		if _over_interface(event.position):
-			return
+		var over_ui := _over_interface(event.position)
 		fingers[event.index] = event.position
 		touch_origins[event.index] = event.position
+		finger_over_ui[event.index] = over_ui
 		if fingers.size() >= 2:
 			had_multiple = true
 			_capture_pair()
 	elif event is InputEventScreenDrag and fingers.has(event.index):
+		fingers[event.index] = event.position
 		if fingers.size() == 1:
-			if not build_mode:
+			var over_ui := finger_over_ui.get(event.index, false)
+			if not over_ui and not build_mode:
 				_pan(event.position - fingers[event.index])
 		elif fingers.size() == 2:
 			if pair_baseline.is_empty():
 				_capture_pair()
-			fingers[event.index] = event.position
 			_two_fingers(event)
-		fingers[event.index] = event.position
 	elif event is InputEventMouseButton:
 		if event.button_index == MOUSE_BUTTON_LEFT:
 			mouse_drag = event.pressed
