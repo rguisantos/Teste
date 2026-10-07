@@ -1,0 +1,47 @@
+Cidades do Brasil — 0.0.19 — Veículos e trânsito
+
+Instale por cima da versão anterior, sem desinstalar, para manter a cidade.
+
+CINCO MODELOS: carro compacto, sedã, moto com piloto e capacete, caminhão
+leve de dois eixos e caminhão grande de três eixos. Carrocerias, vidros,
+rodas, faróis e lanternas são geometria própria do jogo.
+
+COMO APARECEM: deixe a cidade em funcionamento, com imóveis concluídos e
+ligados à entrada. Carros e motos atendem imóveis residenciais, comerciais
+e industriais. Caminhões leves atendem comércio/indústria; grandes,
+indústrias. Empresas precisam estar operantes. A cidade vazia não gera
+trânsito. As viagens alternam chegada da entrada e saída dos imóveis.
+
+CONSULTAR: Opções → Trânsito. O painel conta os veículos por categoria e
+permite localizar cada modelo. Tocar diretamente num veículo também abre
+sua consulta, com velocidade e motivo da espera. Clicar novamente num tipo
+percorre os veículos daquele modelo. Se não houver, aguarde a geração de
+novas viagens. Pausar tempo também pausa o trânsito. Nos mapas técnicos,
+os veículos ficam ocultos para facilitar a leitura.
+
+CIRCULAÇÃO: mão direita, fila sem ultrapassagem, velocidade menor na terra,
+aceleração, redução nas junções e passagem por vez nos cruzamentos.
+Veículos cedem às travessias; pedestres aguardam quando a carroceria já
+ocupa a passagem. Modelos que não cabem no traçado, especialmente caminhões
+grandes em curvas apertadas, não recebem aquela viagem.
+
+PERFORMANCE: limite de 24 veículos ativos, geração espaçada e cinco lotes
+de desenho compartilhados. A simulação de trânsito usa passos de 0,1 s;
+a imagem interpola o movimento entre esses passos.
+
+SALVAMENTO: posições, velocidades, viagens e reservas de cruzamento são
+preservadas. Cidades da 0.0.18 iniciam o novo trânsito vazio, sem modificar
+caixa, construções, pisos ou moradores. Alterar a rede recalcula os trajetos;
+viagens inviáveis são canceladas sem cobrança e sem mover carros pelo vazio.
+
+ESCOPO ATUAL: circulação introdutória, independente da contabilidade.
+Carros ainda não substituem as viagens dos cidadãos; caminhões ainda não
+transportam o estoque real. Chegar não gera pagamentos extras. Não há
+estacionamento, semáforos, acidentes, ultrapassagem ou carretas articuladas.
+
+Os recursos anteriores de ruas, calçadas, bulldozer, serviços, orçamento,
+alertas e zoneamento continuam disponíveis.
+
+APK ARM64, Godot Mobile/Vulkan, mesma assinatura de teste. Capturas reais
+desktop e testes estão incluídos no projeto. Fluidez e bateria no S21 Ultra
+continuam dependendo da verificação no aparelho.

@@ -1,0 +1,1009 @@
+{
+	"cash": 77642,
+	"construction_spent": 12720,
+	"network_version": 3,
+	"residential": {
+		"economy": {
+			"budget_version": 1,
+			"current": {
+				"exports": 360,
+				"imports": 80,
+				"maintenance": 0,
+				"net": 50,
+				"sales": 140,
+				"taxes": 50,
+				"wages": 270
+			},
+			"day": 2,
+			"day_seconds": 180.0,
+			"elapsed": 79.0999999999998,
+			"exterior_balance": -5444,
+			"last": {
+				"exports": 720,
+				"imports": 80,
+				"maintenance": 158,
+				"net": -64,
+				"sales": 220,
+				"taxes": 94,
+				"wages": 470
+			},
+			"last_breakdown_known": true,
+			"last_maintenance": {
+				"power": 50,
+				"roads": 8,
+				"sewage": 25,
+				"unclassified": 0,
+				"water": 75
+			},
+			"municipal_delta": -9638,
+			"public_works_spent": 9500
+		},
+		"lots": [
+			{
+				"age": 24.0,
+				"angle": 0.0,
+				"capacity": 2,
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 14.0,
+				"external_access": true,
+				"height": 0.56,
+				"id": 1,
+				"operational": true,
+				"road": 1,
+				"sewer_exempt": true,
+				"side": 1,
+				"stage": 2,
+				"utility_exempt": true,
+				"variant": 1,
+				"width": 4.0,
+				"x": -66.0,
+				"z": 7.59999990463257,
+				"zone": "residential"
+			},
+			{
+				"age": 24.0,
+				"angle": 0.0,
+				"capacity": 2,
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 26.0,
+				"external_access": true,
+				"height": 0.56,
+				"id": 2,
+				"operational": true,
+				"road": 1,
+				"sewer_exempt": true,
+				"side": 1,
+				"stage": 2,
+				"utility_exempt": true,
+				"variant": 2,
+				"width": 4.0,
+				"x": -54.0,
+				"z": 7.59999990463257,
+				"zone": "residential"
+			},
+			{
+				"age": 24.0,
+				"angle": 0.0,
+				"capacity": 2,
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 38.0,
+				"external_access": true,
+				"height": 0.56,
+				"id": 3,
+				"operational": true,
+				"road": 1,
+				"sewer_exempt": true,
+				"side": 1,
+				"stage": 2,
+				"utility_exempt": true,
+				"variant": 0,
+				"width": 4.0,
+				"x": -42.0,
+				"z": 7.59999990463257,
+				"zone": "residential"
+			},
+			{
+				"age": 24.0,
+				"angle": 0.0,
+				"capacity": 2,
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 50.0,
+				"external_access": true,
+				"height": 0.56,
+				"id": 4,
+				"operational": true,
+				"road": 1,
+				"sewer_exempt": true,
+				"side": 1,
+				"stage": 2,
+				"utility_exempt": true,
+				"variant": 1,
+				"width": 4.0,
+				"x": -30.0,
+				"z": 7.59999990463257,
+				"zone": "residential"
+			},
+			{
+				"age": 24.0,
+				"angle": 0.0,
+				"capacity": 2,
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 62.0,
+				"external_access": true,
+				"height": 0.56,
+				"id": 5,
+				"operational": true,
+				"road": 1,
+				"sewer_exempt": true,
+				"side": 1,
+				"stage": 2,
+				"utility_exempt": true,
+				"variant": 2,
+				"width": 4.0,
+				"x": -18.0,
+				"z": 7.59999990463257,
+				"zone": "residential"
+			},
+			{
+				"age": 24.0,
+				"angle": 0.0,
+				"capacity": 2,
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 74.0,
+				"external_access": true,
+				"height": 0.56,
+				"id": 6,
+				"operational": true,
+				"road": 1,
+				"sewer_exempt": true,
+				"side": 1,
+				"stage": 2,
+				"utility_exempt": true,
+				"variant": 0,
+				"width": 4.0,
+				"x": -6.0,
+				"z": 7.59999990463257,
+				"zone": "residential"
+			},
+			{
+				"age": 24.0,
+				"angle": 0.0,
+				"business": {
+					"cash": 2081,
+					"stock": 7
+				},
+				"capacity": 2,
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 11.9999923706055,
+				"external_access": true,
+				"height": 0.56,
+				"id": 7,
+				"operational": true,
+				"road": 2,
+				"sewer_exempt": true,
+				"side": 1,
+				"stage": 2,
+				"utility_exempt": true,
+				"variant": 1,
+				"width": 4.0,
+				"x": 12.0,
+				"z": 7.59999990463257,
+				"zone": "commercial"
+			},
+			{
+				"age": 24.0,
+				"angle": 0.0,
+				"business": {
+					"cash": 2186,
+					"stock": 0
+				},
+				"capacity": 2,
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 29.9999923706055,
+				"external_access": true,
+				"height": 0.56,
+				"id": 8,
+				"operational": true,
+				"road": 2,
+				"sewer_exempt": true,
+				"side": 1,
+				"stage": 2,
+				"utility_exempt": true,
+				"variant": 2,
+				"width": 4.0,
+				"x": 30.0,
+				"z": 7.59999990463257,
+				"zone": "industrial"
+			},
+			{
+				"age": 24.0,
+				"angle": 0.0,
+				"capacity": 2,
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 47.9999923706055,
+				"external_access": true,
+				"height": 0.56,
+				"id": 9,
+				"operational": true,
+				"road": 2,
+				"sewer_exempt": true,
+				"side": 1,
+				"stage": 2,
+				"utility_exempt": true,
+				"variant": 0,
+				"width": 4.0,
+				"x": 48.0,
+				"z": 7.59999990463257,
+				"zone": "residential"
+			},
+			{
+				"age": 24.0,
+				"angle": 3.14159265358979,
+				"business": {
+					"cash": 2012,
+					"stock": 7
+				},
+				"capacity": 2,
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 10.0,
+				"external_access": true,
+				"height": 0.56,
+				"id": 10,
+				"operational": true,
+				"road": 1,
+				"sewer_exempt": true,
+				"side": -1,
+				"stage": 2,
+				"utility_exempt": false,
+				"variant": 1,
+				"width": 4.0,
+				"x": -70.0,
+				"z": -7.59999990463257,
+				"zone": "commercial"
+			},
+			{
+				"age": 24.0,
+				"angle": 3.14159265358979,
+				"build_paid": 0,
+				"capacity": 3,
+				"catalog_id": "water_medium",
+				"demand_pending": false,
+				"depth": 8.0,
+				"distance": 40.0000038146973,
+				"external_access": true,
+				"height": 0.56,
+				"id": 11,
+				"operational": true,
+				"road": 1,
+				"sewer_exempt": true,
+				"side": -1,
+				"source_legacy": true,
+				"stage": 2,
+				"utility_exempt": false,
+				"variant": 2,
+				"width": 6.0,
+				"x": -39.9999961853027,
+				"z": -8.60000038146973,
+				"zone": "water"
+			},
+			{
+				"age": 24.0,
+				"angle": 3.14159265358979,
+				"build_paid": 0,
+				"capacity": 3,
+				"catalog_id": "power_medium",
+				"demand_pending": false,
+				"depth": 8.0,
+				"distance": 63.9999961853027,
+				"external_access": true,
+				"height": 0.56,
+				"id": 12,
+				"operational": true,
+				"road": 1,
+				"sewer_exempt": true,
+				"side": -1,
+				"stage": 2,
+				"utility_exempt": false,
+				"variant": 0,
+				"width": 6.0,
+				"x": -16.0,
+				"z": -8.60000038146973,
+				"zone": "power"
+			},
+			{
+				"age": 24.0,
+				"angle": 3.14159265358979,
+				"business": {
+					"cash": 2124,
+					"stock": 0
+				},
+				"capacity": 3,
+				"demand_pending": false,
+				"depth": 8.0,
+				"distance": 13.9999923706055,
+				"external_access": true,
+				"height": 0.56,
+				"id": 13,
+				"operational": true,
+				"road": 2,
+				"sewer_exempt": true,
+				"side": -1,
+				"stage": 2,
+				"utility_exempt": false,
+				"variant": 1,
+				"width": 6.0,
+				"x": 14.0,
+				"z": -8.60000038146973,
+				"zone": "industrial"
+			},
+			{
+				"age": 24.0,
+				"angle": 3.14159265358979,
+				"build_paid": 3000,
+				"capacity": 2,
+				"catalog_id": "water_small",
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 45.9999847412109,
+				"external_access": true,
+				"height": 0.56,
+				"id": 14,
+				"operational": true,
+				"road": 2,
+				"sewer_exempt": true,
+				"side": -1,
+				"source_legacy": true,
+				"stage": 2,
+				"utility_exempt": false,
+				"variant": 2,
+				"width": 4.0,
+				"x": 45.9999923706055,
+				"z": -7.59999990463257,
+				"zone": "water"
+			},
+			{
+				"age": 24.0,
+				"angle": 0.0,
+				"build_paid": 3500,
+				"capacity": 2,
+				"catalog_id": "sewage_small",
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 19.9999904632568,
+				"external_access": true,
+				"height": 0.56,
+				"id": 15,
+				"operational": true,
+				"road": 2,
+				"sewer_exempt": false,
+				"side": 1,
+				"stage": 2,
+				"utility_exempt": false,
+				"variant": 0,
+				"width": 4.0,
+				"x": 20.0,
+				"z": 7.59999990463257,
+				"zone": "sewage"
+			},
+			{
+				"age": 24.0,
+				"angle": 0.0,
+				"business": {
+					"cash": 2124,
+					"stock": 0
+				},
+				"capacity": 2,
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 39.9999923706055,
+				"external_access": true,
+				"height": 0.56,
+				"id": 16,
+				"operational": true,
+				"road": 2,
+				"sewer_exempt": false,
+				"side": 1,
+				"stage": 2,
+				"utility_exempt": false,
+				"variant": 1,
+				"width": 4.0,
+				"x": 40.0,
+				"z": 7.59999990463257,
+				"zone": "industrial"
+			},
+			{
+				"age": 24.0,
+				"angle": 0.0,
+				"build_paid": 3000,
+				"capacity": 2,
+				"catalog_id": "water_small",
+				"demand_pending": false,
+				"depth": 6.0,
+				"distance": 20.0,
+				"external_access": true,
+				"height": 0.56,
+				"id": 17,
+				"operational": true,
+				"road": 1,
+				"sewer_exempt": false,
+				"side": 1,
+				"source_legacy": false,
+				"stage": 2,
+				"utility_exempt": false,
+				"variant": 2,
+				"width": 4.0,
+				"x": -60.0,
+				"z": 7.59999990463257,
+				"zone": "water"
+			}
+		],
+		"residents": [
+			{
+				"age": 25,
+				"balance": 345,
+				"home": 1,
+				"id": 1,
+				"job": 7,
+				"name": "João Santos"
+			},
+			{
+				"age": 32,
+				"balance": 560,
+				"home": 1,
+				"id": 2,
+				"job": 8,
+				"name": "Maria Santos"
+			},
+			{
+				"age": 39,
+				"balance": 330,
+				"home": 2,
+				"id": 3,
+				"job": 10,
+				"name": "Pedro Oliveira"
+			},
+			{
+				"age": 46,
+				"balance": 380,
+				"home": 2,
+				"id": 4,
+				"job": 13,
+				"name": "Carla Oliveira"
+			},
+			{
+				"age": 53,
+				"balance": 380,
+				"home": 3,
+				"id": 5,
+				"job": 13,
+				"name": "José Silva"
+			},
+			{
+				"age": 60,
+				"balance": 500,
+				"home": 3,
+				"id": 6,
+				"job": 16,
+				"name": "Ana Silva"
+			},
+			{
+				"age": 67,
+				"balance": 280,
+				"home": 4,
+				"id": 7,
+				"job": 0,
+				"name": "João Santos"
+			},
+			{
+				"age": 21,
+				"balance": 260,
+				"home": 4,
+				"id": 8,
+				"job": 0,
+				"name": "Maria Santos"
+			},
+			{
+				"age": 28,
+				"balance": 240,
+				"home": 5,
+				"id": 9,
+				"job": 0,
+				"name": "Pedro Oliveira"
+			},
+			{
+				"age": 35,
+				"balance": 240,
+				"home": 5,
+				"id": 10,
+				"job": 0,
+				"name": "Carla Oliveira"
+			},
+			{
+				"age": 42,
+				"balance": 240,
+				"home": 6,
+				"id": 11,
+				"job": 0,
+				"name": "José Silva"
+			},
+			{
+				"age": 49,
+				"balance": 240,
+				"home": 6,
+				"id": 12,
+				"job": 0,
+				"name": "Ana Silva"
+			},
+			{
+				"age": 56,
+				"balance": 280,
+				"home": 9,
+				"id": 13,
+				"job": 0,
+				"name": "João Silva"
+			},
+			{
+				"age": 63,
+				"balance": 280,
+				"home": 9,
+				"id": 14,
+				"job": 0,
+				"name": "Maria Silva"
+			}
+		],
+		"sanitation_version": 1
+	},
+	"roads": [
+		{
+			"a": [
+				0.0,
+				0.0
+			],
+			"b": [
+				0.0,
+				-44.0
+			],
+			"surface": "asphalt"
+		},
+		{
+			"a": [
+				-80.0,
+				0.0
+			],
+			"b": [
+				0.00000762939453125,
+				0.0
+			],
+			"points": [
+				[
+					-80.0,
+					0.0
+				],
+				[
+					0.00000762939453125,
+					0.0
+				]
+			],
+			"surface": "asphalt"
+		},
+		{
+			"a": [
+				0.00000762939453125,
+				0.0
+			],
+			"b": [
+				70.0,
+				0.0
+			],
+			"points": [
+				[
+					0.00000762939453125,
+					0.0
+				],
+				[
+					70.0,
+					0.0
+				]
+			],
+			"surface": "dirt"
+		}
+	],
+	"travel": {
+		"agents": [
+			{
+				"at": 7,
+				"bought_day": 2,
+				"distance": 19.9949995994568,
+				"id": 1,
+				"length": 79.0999994277954,
+				"origin": 7,
+				"phase": "walking",
+				"points": [
+					[
+						12.0,
+						4.59999990463257
+					],
+					[
+						12.0,
+						4.05000019073486
+					],
+					[
+						-66.0,
+						4.05000019073486
+					],
+					[
+						-66.0,
+						4.59999990463257
+					]
+				],
+				"purpose": "home",
+				"shop_try_day": 2,
+				"target": 1,
+				"visited_work_day": 2,
+				"wait": 0.0,
+				"worked_day": 2
+			},
+			{
+				"at": 8,
+				"bought_day": 1,
+				"distance": 9.98999999999999,
+				"id": 2,
+				"length": 19.0999994277954,
+				"origin": 8,
+				"phase": "walking",
+				"points": [
+					[
+						30.0,
+						4.59999990463257
+					],
+					[
+						30.0,
+						4.05000019073486
+					],
+					[
+						12.0,
+						4.05000019073486
+					],
+					[
+						12.0,
+						4.59999990463257
+					]
+				],
+				"purpose": "shop",
+				"shop_try_day": 1,
+				"target": 7,
+				"visited_work_day": 2,
+				"wait": 0.0,
+				"worked_day": 2
+			},
+			{
+				"at": 10,
+				"bought_day": 2,
+				"distance": 49.0350026607511,
+				"id": 3,
+				"length": 49.7589495182037,
+				"origin": 10,
+				"phase": "walking",
+				"points": [
+					[
+						-70.0,
+						-4.59999990463257
+					],
+					[
+						-70.0,
+						-4.05000019073486
+					],
+					[
+						-80.0,
+						-4.05000019073486
+					],
+					[
+						-81.3851776123047,
+						-3.80575561523438
+					],
+					[
+						-82.6032867431641,
+						-3.10248064994812
+					],
+					[
+						-83.5074005126953,
+						-2.02499985694885
+					],
+					[
+						-83.9884719848633,
+						-0.703275322914124
+					],
+					[
+						-83.9884719848633,
+						0.703274667263031
+					],
+					[
+						-83.5074005126953,
+						2.02500033378601
+					],
+					[
+						-82.6032867431641,
+						3.10248017311096
+					],
+					[
+						-81.3851852416992,
+						3.8057553768158
+					],
+					[
+						-80.0,
+						4.05000019073486
+					],
+					[
+						-54.0,
+						4.05000019073486
+					],
+					[
+						-54.0,
+						4.59999990463257
+					]
+				],
+				"purpose": "home",
+				"shop_try_day": 2,
+				"target": 2,
+				"visited_work_day": 2,
+				"wait": 0.0,
+				"worked_day": 2
+			},
+			{
+				"at": 2,
+				"bought_day": 1,
+				"distance": 60.7710492134092,
+				"id": 4,
+				"length": 77.2000002861023,
+				"origin": 2,
+				"phase": "walking",
+				"points": [
+					[
+						-54.0,
+						4.59999990463257
+					],
+					[
+						-54.0,
+						4.05000019073486
+					],
+					[
+						5.0,
+						4.05000019073486
+					],
+					[
+						5.0,
+						-4.05000019073486
+					],
+					[
+						14.0,
+						-4.05000019073486
+					],
+					[
+						14.0,
+						-4.60000038146973
+					]
+				],
+				"purpose": "work",
+				"shop_try_day": 1,
+				"target": 13,
+				"visited_work_day": 1,
+				"wait": 0.0,
+				"worked_day": 1
+			},
+			{
+				"at": 3,
+				"bought_day": 1,
+				"distance": 36.6060521125794,
+				"id": 5,
+				"length": 65.2000002861023,
+				"origin": 3,
+				"phase": "walking",
+				"points": [
+					[
+						-42.0,
+						4.59999990463257
+					],
+					[
+						-42.0,
+						4.05000019073486
+					],
+					[
+						5.0,
+						4.05000019073486
+					],
+					[
+						5.0,
+						-4.05000019073486
+					],
+					[
+						14.0,
+						-4.05000019073486
+					],
+					[
+						14.0,
+						-4.60000038146973
+					]
+				],
+				"purpose": "work",
+				"shop_try_day": 1,
+				"target": 13,
+				"visited_work_day": 1,
+				"wait": 0.0,
+				"worked_day": 1
+			},
+			{
+				"at": 16,
+				"bought_day": -1,
+				"distance": 21.9749981880189,
+				"id": 6,
+				"length": 29.0999994277954,
+				"origin": 16,
+				"phase": "walking",
+				"points": [
+					[
+						40.0,
+						4.59999990463257
+					],
+					[
+						40.0,
+						4.05000019073486
+					],
+					[
+						12.0,
+						4.05000019073486
+					],
+					[
+						12.0,
+						4.59999990463257
+					]
+				],
+				"purpose": "shop",
+				"shop_try_day": 1,
+				"target": 7,
+				"visited_work_day": 2,
+				"wait": 0.0,
+				"worked_day": 2
+			},
+			{
+				"at": 4,
+				"bought_day": 1,
+				"distance": 0.0,
+				"id": 7,
+				"length": 0.0,
+				"origin": 7,
+				"phase": "idle",
+				"points": [],
+				"purpose": "home",
+				"shop_try_day": 2,
+				"target": 4,
+				"visited_work_day": -1,
+				"wait": 0.9,
+				"worked_day": -1
+			},
+			{
+				"at": 4,
+				"bought_day": 2,
+				"distance": 0.0,
+				"id": 8,
+				"length": 0.0,
+				"origin": 7,
+				"phase": "idle",
+				"points": [],
+				"purpose": "home",
+				"shop_try_day": 2,
+				"target": 4,
+				"visited_work_day": -1,
+				"wait": 0.1,
+				"worked_day": -1
+			},
+			{
+				"at": 5,
+				"bought_day": 2,
+				"distance": 0.0,
+				"id": 9,
+				"length": 0.0,
+				"origin": 7,
+				"phase": "idle",
+				"points": [],
+				"purpose": "home",
+				"shop_try_day": 2,
+				"target": 5,
+				"visited_work_day": -1,
+				"wait": 0.1,
+				"worked_day": -1
+			},
+			{
+				"at": 5,
+				"bought_day": 2,
+				"distance": 0.0,
+				"id": 10,
+				"length": 0.0,
+				"origin": 7,
+				"phase": "idle",
+				"points": [],
+				"purpose": "home",
+				"shop_try_day": 2,
+				"target": 5,
+				"visited_work_day": -1,
+				"wait": 0.5,
+				"worked_day": -1
+			},
+			{
+				"at": 6,
+				"bought_day": 2,
+				"distance": 0.0,
+				"id": 11,
+				"length": 0.0,
+				"origin": 7,
+				"phase": "idle",
+				"points": [],
+				"purpose": "home",
+				"shop_try_day": 2,
+				"target": 6,
+				"visited_work_day": -1,
+				"wait": 0.3,
+				"worked_day": -1
+			},
+			{
+				"at": 6,
+				"bought_day": 2,
+				"distance": 0.0,
+				"id": 12,
+				"length": 0.0,
+				"origin": 7,
+				"phase": "idle",
+				"points": [],
+				"purpose": "home",
+				"shop_try_day": 2,
+				"target": 6,
+				"visited_work_day": -1,
+				"wait": 0.6,
+				"worked_day": -1
+			},
+			{
+				"at": 9,
+				"bought_day": 0,
+				"distance": 0.0,
+				"id": 13,
+				"length": 0.0,
+				"origin": 7,
+				"phase": "idle",
+				"points": [],
+				"purpose": "home",
+				"shop_try_day": 2,
+				"target": 9,
+				"visited_work_day": -1,
+				"wait": 0.8,
+				"worked_day": -1
+			},
+			{
+				"at": 9,
+				"bought_day": 0,
+				"distance": 0.0,
+				"id": 14,
+				"length": 0.0,
+				"origin": 7,
+				"phase": "idle",
+				"points": [],
+				"purpose": "home",
+				"shop_try_day": 2,
+				"target": 9,
+				"visited_work_day": -1,
+				"wait": 0.000000000000000138777878078145,
+				"worked_day": -1
+			}
+		],
+		"completed_trips": 84,
+		"route_version": 2
+	}
+}

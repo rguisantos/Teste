@@ -1,0 +1,6 @@
+.godot/
+build/
+.signing/
+*.keystore
+*.apk
+*.idsig

@@ -1,0 +1,68 @@
+{
+	"cash": 94400,
+	"residential": {
+		"lots": [
+			{
+				"age": 24.0,
+				"angle": 0.0,
+				"distance": 55.0,
+				"height": 0.62,
+				"id": 1,
+				"road": 0,
+				"side": 1,
+				"stage": 2,
+				"x": -25.0,
+				"z": 11.0
+			},
+			{
+				"age": 8.0,
+				"angle": 3.14159265358979,
+				"distance": 79.0,
+				"height": 0.62,
+				"id": 2,
+				"road": 0,
+				"side": -1,
+				"stage": 1,
+				"x": -1.0,
+				"z": -11.0
+			}
+		],
+		"residents": [
+			{
+				"age": 25,
+				"employment": "Ainda sem simulação de emprego",
+				"home": 1,
+				"id": 1,
+				"name": "João Santos"
+			},
+			{
+				"age": 32,
+				"employment": "Ainda sem simulação de emprego",
+				"home": 1,
+				"id": 2,
+				"name": "Maria Santos"
+			},
+			{
+				"age": 39,
+				"employment": "Ainda sem simulação de emprego",
+				"home": 1,
+				"id": 3,
+				"name": "Pedro Santos"
+			}
+		]
+	},
+	"roads": [
+		{
+			"a": [
+				-80.0,
+				0.0
+			],
+			"b": [
+				60.0,
+				0.0
+			]
+		}
+	],
+	"schema": 1,
+	"seed": 42
+}

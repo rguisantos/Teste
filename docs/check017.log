@@ -1,0 +1,88 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+SMOKE_OK: terreno, câmera e diagnóstico
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+INTERFACE_OK: gestos, botões, prévia, cancelamento, construção e autosave
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+ROADS_OK: diagonais, curvas, nós L/T/X, união, quadras, custo e recuperação
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+NORMALS_OK: faces e normais das ruas e do terreno voltadas para cima
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+GRADING_OK: pista, taludes, curvas, junções, rampa, recarga e prévia sem alteração
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+RESIDENTIAL_OK: curvas, colisão, construção, moradores, persistência e migração
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+ZONING_TOUCH_OK: toque, cancelamento, confirmação, telhado e recarga
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+ZONING_ECONOMY_OK: espaços estreitos, tamanhos, empregos, contas, recarga e migração 0.0.7
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+CITIZEN_TRAVEL_OK: ruas em L e curvas, pagamento por chegada, progresso persistente, contas e validação
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+PEDESTRIAN_EDGES_OK: bordas, L/T/X, travessias, velocidade, migração 0.0.9 e recarga
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+CITY_DEMAND_OK: reservas, fila persistente, empregos/moradores liberam crescimento, caixa conservado e migração 0.0.10
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+LOT_MANAGEMENT_OK: troca de uso, cancelamento, espaço livre, referências, rotas, pagamentos e recarga
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+LOT_MANAGEMENT_UI_OK: consulta em Navegar, troca por toque, confirmação/cancelamento, persistência e imóvel pronto
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+CITY_UTILITIES_OK: fontes, carência, reserva finita, cancelamento, contas e migração 0.0.12
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+INFRASTRUCTURE_UI_OK: HUD 1280×640, instalações por toque, cobertura, consulta e bulldozer com confirmação
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+DEMOLITION_NETWORK_OK: trechos e curvas, desconexão/reconexão, serviços locais, empresas, moradores, contas e recarga
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+CITY_CATALOG_OK: nove instalações, área, preço, manutenção, previsão, caixa, save e demolição
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+CITY_SANITATION_OK: captação, aquífero compartilhado, coleta, tratamento, interrupção, reconexão, orçamento e migração 0.0.15
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+SANITATION_UI_OK: catálogo, preço, esgoto por toque, consulta, seis mapas e layout 1280×640
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+PROBLEMS_BUDGET_OK: causas, filtros, recuperação, renumeração, orçamento histórico/estimado, contas e migração 0.0.16
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+PROBLEMS_UI_OK: ícones por toque, foco, causas, filtros, mapas, orçamento, migração e tela 1280×640
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+
+PROJECT_OK: controles, lotes pequenos, economia, migração e execução da cena
